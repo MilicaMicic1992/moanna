@@ -1,0 +1,395 @@
+@media screen and (min-width: 1070px){
+ /* pocetna*/
+    .desktop-nav {
+        display: block;
+      }
+      .hamburger-div {
+        display: none;
+      }
+      .mobilni-nav {
+        display: none;
+      }
+      .mobileslika{
+        display: none;
+    }
+
+/*o namaa*/
+
+
+.mccm{
+    display: none;
+}
+.mccm2{
+    display: none;
+}
+.sothys-mobile{
+    display: none;
+}
+/*cenovnik*/
+.cene{
+    display: none;
+}
+}
+@media screen and (min-width: 769px) and (max-width:1069px){
+
+    .desktop-nav {
+        display: none;
+      }
+      .hamburger-div {
+        display: block;
+      }
+      .mobilni-nav {
+        display: block;
+      }
+
+    #sadrzaj1{
+     max-width: 80%;
+    }
+    .omasazilica{
+        padding: 64px 2px;
+        margin: 22px;
+    }
+    .slikamasaza img{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 10px;
+    }
+    .slikaaparata img{
+        width: 100%;
+        max-width: 300px;
+        height: auto; 
+        margin: 10px;
+    }
+    .oaparatima{
+        margin-top: 0;
+        background-color: transparent;
+    }
+    .tekstaparat{
+        padding: 26px;
+    }
+    .mobileslika{
+        display: none;
+    }
+    .slikakozmetika img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 10px;
+    }
+    .tekstkozmetika{
+     padding: 0;
+    }
+    #utisci{
+        display: block;
+        margin-bottom: 80px;
+    }
+    .gridpasus{
+        margin-bottom: 20px;
+    }
+    .footerdiv1 p, .footerdiv2 p, .footerdiv3 p{
+        text-align: center;
+        padding-left: 15px;
+        font-size: 0.9em;
+    }
+ 
+    .footerdiv2{
+        font-size: 0.8em;
+    }
+    .footerdiv1, .footerdiv3{
+        padding: 20px;
+    }
+    /*tretmani*/
+    #pitanja {
+        margin: 170px auto;
+        width: 80%;
+    }
+    .padajucimeni{
+        margin: 10px;
+    }
+    /*o nama*/
+    #about {
+        padding: 30px;
+        margin: auto;
+        max-width: 70%;
+    } 
+   .sothys-desktop{
+    display: none;
+   } 
+    .cosmetics{
+        display: block;
+    }
+    .textcosmetics{
+        padding: 12px 100px 0 100px;
+    }
+    .mccm{
+        display: none;
+    }
+    .sothys.matis{
+        padding: 0px 130px;
+    }
+
+
+    /*cenovnik*/
+table{
+    width: 90%;
+}
+    #maincenovnik{
+        max-width: 100%;
+    }
+    .cene{
+        display: none;
+    }
+    /*kontakt*/
+    #kontakt{
+        width: 100%;
+        display: block;
+        margin: 30px auto;
+     
+    }
+    #telefon {
+        margin: 50px auto;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+ 
+    #radnovreme h3, #radnovreme p{
+        text-align: center;
+    } 
+/*o nama*/
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .sothys{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    body{
+        font-size: 0.9em;
+    }
+    .desktop-nav {
+        display: none;
+      }
+      .hamburger-div {
+        display: block;
+      }
+      .mobilni-nav {
+        display: block;
+      }
+    #sadrzaj1{
+        
+        text-align: center;
+        background-color: rgba(250, 235, 215, 0.6);
+        padding: 30px;
+        margin: 50px auto;
+        width: 250px;
+        max-height: fit-content;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+     #sadrzaj1 h1{
+        font-size: 1.8em;
+     }
+    .omasazi{
+      display: block;
+      text-align: center;
+      }
+    .slikamasaza img{  
+        max-width: 70%;
+        height: auto;
+        margin: auto 30px;
+    }
+    .slika1{
+        padding-top: 50px ;
+    }
+    .omasazilica{
+        padding: 10px 34px;
+        text-align: center;
+    }
+    .oaparatima{
+        display: block;
+        margin: 10px;
+        text-align: center;
+      }
+
+    .procitajvise{
+        padding: 0;
+        text-align: left;
+    }
+    .tekstaparat{
+        padding: 10px 34px;
+    }
+    .slikaaparata img{
+        max-width: 70%;
+        height: auto;
+        margin: auto 30px; 
+
+    }
+    .oaparatima{
+        background-color: transparent;
+    }
+    .okozmetici{
+        display: block;
+        text-align: center;
+      
+    }
+    .tekstkozmetika{
+        padding: 10px 34px;
+    }
+    .slikakozmetika img{
+        max-width: 70%;
+        height: auto;
+        margin: auto 30px; 
+    }
+    #utisci{
+        display: block;
+        padding: 5px 50px;
+       
+    }
+    .gridpasus{
+        margin-top: 20px;
+    }
+    .footergrid{
+        display: block;
+        text-align: center;
+        height: max-content;    
+    }
+    .footerdiv1, .footerdiv2, .footerdiv3{
+        border: none;
+    }
+    footer{
+        padding: 0;
+    }
+    .desktopslika{
+        display: none;
+    }
+    /*tretmani*/
+    #lineup {
+        padding: 0px 7px 0px 10px;
+    }
+    #pitanja {
+        margin: 100px auto;
+        width: 95%;
+    }
+    .padajucimeni {
+        border-radius: 50px;
+        padding: 20px;
+        margin: 10px;
+        font-size: 1.1em;
+    }
+    .padajucimeni i, .padajucimeni p{
+        padding: 4px;
+    }
+    .faq.active .pitanjaiodgovori {
+        padding: 0px 25px 10px 25px  ;
+    }
+   
+/*cenovnik*/
+    #cenovnik h2{
+       font-size: 2em; 
+    }
+    table{
+        display: none;
+    }
+    td{
+        text-align: left;
+    }
+    mark {
+        background-color: peachpuff;
+        color: black;
+      }
+    .cene li{
+        margin-left: 25px;
+        display:list-item;
+        list-style-type: circle;
+    }  
+    .cene{
+        margin-bottom: 100px;
+    }
+    ::marker{
+        color:  rgb(2, 1, 0) !important;
+    }
+    /*kontakt*/
+    #kontakt{
+        width: 100%;
+        display: block;
+        margin: 30px auto;
+        font-size: 1.1em;
+     
+    }
+    #telefon {
+        margin: 50px auto;
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+    #telefon p{
+        text-align: center;
+    }
+    #radnovreme{
+        padding: 30px;
+    }
+    #radnovreme h3, #radnovreme p{
+        text-align: center;
+    } 
+    /*o nama*/
+    #about{
+        background-color: rgb(242,239,232, 0.6); 
+        padding:          60px;
+        margin:           auto;
+        max-width:            70%;
+    
+    }
+
+    #saradnja h2{
+        font-size: 30px;
+    }
+    .textcosmetics{
+        padding: 0px;
+    }
+
+  
+    .container h2{
+        font-size: 28px;
+    }
+    .desktop{
+        display: none;
+    }
+    .sothys img {
+        max-width: 250px;
+        max-height: 250px;
+       margin-left: 0 15px;
+    }
+    .mobile{
+        display: block;
+    }
+    .cosmetics{
+        display: block;
+    }
+   
+
+}
+
+
+
+
+
+
+
+
