@@ -12,7 +12,6 @@
      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
      crossorigin=""/>
      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
     <title>Kontakt</title>
 </head>
 <body>
@@ -107,23 +106,26 @@
 
     <script>
 
-var hamburgerDiv = document.querySelector("#hamburger-div");
+const hamburgerDiv = document.querySelector("#hamburger-div");
 
 const hamburgerFunction = () => {
-$("#hamburger-div").click(function() {
-    console.log("click")
-    $(".hamburger-div").toggleClass("active")
-    $(".mobilni-nav").toggleClass("active")
-})
-$(".mobilni-nav-link").click(function() {
-    $(".hamburger-div").removeClass("active")
-    $(".mobilni-nav").removeClass("active")
-})
-}
+    hamburgerDiv.addEventListener("click", () => {
+        console.log("click");
+        hamburgerDiv.classList.toggle("active");
+        document.querySelector(".mobilni-nav").classList.toggle("active");
+    });
 
-$(document).ready(function(){
-    hamburgerFunction()
-})
+    document.querySelectorAll(".mobilni-nav-link").forEach(link => {
+        link.addEventListener("click", () => {
+            hamburgerDiv.classList.remove("active");
+            document.querySelector(".mobilni-nav").classList.remove("active");
+        });
+    });
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    hamburgerFunction();
+});
 
 
 
