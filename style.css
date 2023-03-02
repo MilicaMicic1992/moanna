@@ -43,7 +43,7 @@ border-radius: var(--border-radius);
 }
 .desktop-nav a:hover{
     background-color: rgba(68, 68, 68, 0.071);
-    border-radius: 20px;
+    border-radius: var(--border-radius);
 }
 .desktop-nav a, .desktop-nav .tretmanbtn{
     float:           left; 
