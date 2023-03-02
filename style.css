@@ -2,6 +2,9 @@
 --border-radius: 30px;
 
 }
+#page{
+padding: 0 1.5rem;
+}
 body{
     color:       rgb(46, 46, 46);
     padding:     0px;
