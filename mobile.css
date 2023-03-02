@@ -169,16 +169,6 @@ table{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:768px){
     body{
         font-size: 0.9em;
@@ -325,9 +315,10 @@ table{
     .cene{
         margin-bottom: 100px;
     }
-     ul{
+    .cene ul{
       margin: 20px;
       }
+ 
     ::marker{
         color:  rgb(2, 1, 0) !important;
     }
