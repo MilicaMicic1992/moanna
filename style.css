@@ -1,4 +1,7 @@
+:root{
+--border-radius:30px;
 
+}
 body{
     color:       rgb(46, 46, 46);
     padding:     0px;
@@ -20,6 +23,9 @@ body{
     height:   85px; 
     margin:   -10px;
     padding:  10px 
+}
+img{
+border-radius: var(--border-radius);
 }
 #logo{
     flex-grow: 1;
