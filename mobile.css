@@ -317,11 +317,9 @@ table{
         list-style-type: circle;
     }  
     .cene{
-        margin-bottom: 100px;
+        margin-bottom: 20px;
     }
-   ul{
-      margin: 20px;
-      }
+ 
  
     ::marker{
         color:  rgb(2, 1, 0) !important;
