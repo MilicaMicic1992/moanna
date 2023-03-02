@@ -173,6 +173,9 @@ table{
     body{
         font-size: 0.9em;
     }
+     #page{
+      padding: 0;
+      }
     .desktop-nav {
         display: none;
       }
