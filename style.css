@@ -155,7 +155,6 @@ a{
 .slika1{
     grid-column-start: 1;
     grid-column-end: 2;
-    padding-top: 100px;
     margin-bottom: -100px;
 }
 .omasazilica{
