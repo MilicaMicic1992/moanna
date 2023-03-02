@@ -301,6 +301,10 @@ table{
     #cenovnik h2{
        font-size: 2em; 
     }
+ }
+    #maincenovnik{
+    margin:20px;
+    }
     table{
         display: none;
     }
