@@ -248,7 +248,8 @@ a{
     position:         absolute;
     top:              60%;
     left:             50%;
-    transform:        translate(-50%, -50%);
+    transform:        translate(-50%, -50%);    
+    border-radius: var(--border-radius);
 }
 #main{
     padding:               135px;
