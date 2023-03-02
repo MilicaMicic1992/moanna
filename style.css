@@ -95,7 +95,7 @@ body{
     top: 0px;
     left: 0;
     right: 90px;
-    transform: translateX(-70vw);
+    transform: translateX(-150vw);
     z-index: 999 !important;
     opacity: 0;
     background: hsl(300 7% 3% / 0.5);
