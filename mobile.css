@@ -325,6 +325,9 @@ table{
     .cene{
         margin-bottom: 100px;
     }
+     ul{
+      margin: 20px;
+      }
     ::marker{
         color:  rgb(2, 1, 0) !important;
     }
