@@ -342,6 +342,8 @@ footer{
     grid-column-end: 4;
 }
 .prava{
+    border-top: 1px solid #444;
+    padding: 30px;
     text-align: center;
 }
 
