@@ -320,9 +320,7 @@ table{
         display:list-item;
         list-style-type: circle;
     }  
-    .cene{
-        margin: 20px;
-    }
+   
  
  
     ::marker{
