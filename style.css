@@ -479,6 +479,8 @@ html{
 }
 
 #upBtn.visible{
+    border-radius: 20px;
+    padding: 7px;
     display: inline;
 }
 #pitanja{
